@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 header {
     background-color: white;
     padding: 20px 0;
@@ -194,6 +198,22 @@ section.achievements {
     .differential-single{
         width: 100%;
         margin-bottom: 20px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo{
+        width: 20%;
+    }
+    .menu-mobile {
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+    .menu-mobile i {
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
     }
     .content-about p {
         width: 100%;
