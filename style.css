@@ -41,7 +41,7 @@ header {
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
-    transition: 0.5s;
+    /*transition: 0.5s;*/
 }
 
 .menu a:hover {
@@ -104,6 +104,7 @@ section.main {
 
 .differentials {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .differential-single {
@@ -129,4 +130,73 @@ section.main {
     color: gray;
     font-size: 14px;
     line-height: 30px;
+}
+
+section.about {
+    padding: 80px 0;
+}
+
+.call-about {
+    width: 100%;
+    text-align: center;
+}
+
+.call-about h2 {
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.call-about p {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.content-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-about p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444444;
+}
+
+.content-about span {
+    display: inline-block;
+    width: 100%;    
+    margin-top: 10px;
+}
+
+.content-about i {
+    color: #007bff;
+}
+
+section.achievements {
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.single-achievement {
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+
+.single-achievement h2{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .differential-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content-about p {
+        width: 100%;
+        margin: 20px 20px;
+    }
 }
