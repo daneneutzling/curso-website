@@ -193,6 +193,132 @@ section.achievements {
     font-size: 30px;
 }
 
+.single-achievement img {
+    max-width: 100%;
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 0.5s;
+}
+
+.single-achievement img:hover {
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
+
+
+.menu-items {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid blue;
+    display: none;
+}
+
+.menu-items.show {
+    display: block;
+
+}
+
+.menu-items.hidde {
+    display: none;
+}
+
+.menu-items a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+section.about-entrepreneur {
+    padding: 40px 0;
+}
+
+.about-entrepreneur-img {
+    width: 50%;
+}
+
+.about-entrepreneur-img img {
+    max-width: 100%;
+}
+
+.about-entrepreneur-content {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.about-entrepreneur-content h2 {
+    color: #124265;
+    margin-bottom: 20px;
+}
+
+.about-entrepreneur-content p {
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+section.depositions {
+    padding: 40px 0;
+}
+
+section.depositions .depositions-call {
+    text-align: center;
+}
+
+.depositions-call h2 {
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.depositions-call p {
+    color: #ccc;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.carousel {
+    display: flex;
+}
+
+.single-carousel {
+    width: 31%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.single-carousel-box { 
+    padding: 20px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+}
+
+.single-carousel-box p {
+    font-style: italic;
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+.single-carousel-box i {
+    color: #c9e3f5;
+    font-size: 19px;
+    padding: 0 8px;
+}
+
+.single-carousel img {
+    width: 25%;
+    height: 25%;
+    display: inline;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.single-carousel span {
+    color: #ccc;
+}
+
 
 @media screen and (max-width: 760px) {
     .differential-single{
